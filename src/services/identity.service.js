@@ -91,7 +91,7 @@ class IdentityService {
     const secondaryContacts = await Contact.findAll({
       where: { linkedId: primaryId },
     });
-    return [primaryContact, ...secondaryContacts].filter(Boolean); // filter(Boolean) to remove nulls
+    return [primaryContact, ...secondaryContacts].filter(Boolean); 
   }
 
   buildResponse(contacts) {
