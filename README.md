@@ -1,4 +1,4 @@
-# Bitespeed Identity Reconciliation Service
+# Identity Reconciliation Service
 
 This is a structured backend service for the Bitespeed Identity Reconciliation task, built with Node.js, Express, and Sequelize.
 
